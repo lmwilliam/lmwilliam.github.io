@@ -2,8 +2,6 @@
 layout: blog-default-compress
 ---
 
-{% assign _content = page.text | markdownify %}
-
 <div class="m-post">
   <div class="main js-main">
     <div class="col-1">
@@ -24,7 +22,9 @@ layout: blog-default-compress
               {% endfor %}
             {% endif %}
           {% endif %}
-          {{ _content }}
+
+          {{ content }}
+
           {% if page.source %}
             <hr />
             <code>Source</code> <a href="{{ page.source }}">{{ page.source }}</a>

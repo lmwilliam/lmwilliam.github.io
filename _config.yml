@@ -24,10 +24,6 @@ nav_lists:
 #   all:  /all.html
 #   rss:  /feed.xml
 
-## GitHub repository (if the site is hosted by GitHub) ##
-# repository:  #e.g. someone/someone.github.io
-# repository_tree:  #e.g. master
-
 ## Language & timezone ##
 lang: zh-Hant
 timezone: Asia/Taipei
@@ -39,24 +35,10 @@ author:
   # facebook:  #your Facebook username
   # twitter:  #your Twitter username
   # github:  #your GitHub username
-  # googleplus:  #your Google+ username
-  # weibo:  #your Weibo username
-  # douban:  #your Douban username
-  # linkedin:  #your Linkedin username
 
 ## Comment system (Disqus) ##
 disqus:
   shortname: basharbuddha
-
-## Comment system (gitalk) ##
-# please refer to https://github.com/gitalk/gitalk for more info.
-gitalk:
-  # clientID:  #Github Application Client ID
-  # clientSecret:  #Github Application Client Secret
-  # repository:  #Github repo
-  # owner:  #Github repo owner
-  # admin: #Github repo owner and collaborators, only these guys can initialize github issues, IT IS A LIST.
-    # - owner
 
 ## Google Analytics ##
 ga_tracking_id:  UA-112164871-1
@@ -112,7 +94,6 @@ algolia:
   application_id: VXNUMUQ10M
   index_name: basharbuddha
   search_only_api_key: 2454842b9872cfac31e11c2427623f10
-  nodes_to_index: 'p'
 
 ## Server ##
 server_url: "0.0.0.0"

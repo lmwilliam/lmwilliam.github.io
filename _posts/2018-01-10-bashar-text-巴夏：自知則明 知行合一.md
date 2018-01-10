@@ -1,14 +1,12 @@
 ---
 layout: post
-title: TITLE
-key: 20180110_text_TITLE
+title: 巴夏：自知則明 知行合一
+key: 20180110_text_巴夏：自知則明 知行合一
 category: text
 tags: 文字
 source: http://san23.pixnet.net/blog/post/63466264
 ---
 
-
-巴夏：自知則明 知行合一
 
 問：近日，致幻劑和植物老師，最讓我興奮，對死籐水和DMT（註：迷幻藥），我也很好奇，想知道它倆的差異
 

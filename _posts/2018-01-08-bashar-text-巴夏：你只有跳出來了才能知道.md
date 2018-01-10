@@ -3,7 +3,7 @@ layout: post
 title: 巴夏：你只有跳出來了才能知道
 key: 20180108_text_巴夏：你只有跳出來了才能知道
 category: text
-tags: 純文字
+tags: 文字
 source: http://san23.pixnet.net/blog/post/64156678
 ---
 

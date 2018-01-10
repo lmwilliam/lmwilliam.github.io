@@ -3,7 +3,7 @@ layout: post
 title: 巴夏：你們DNA的變化
 key: 20180108_text_巴夏：你們DNA的變化
 category: text
-tags: 純文字
+tags: 文字
 source: http://san23.pixnet.net/blog/post/64268701
 ---
 

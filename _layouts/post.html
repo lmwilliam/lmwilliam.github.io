@@ -25,6 +25,10 @@ layout: blog-default-compress
             {% endif %}
           {% endif %}
           {{ _content }}
+          {% if page.source %}
+            <hr />
+            <code>Source</code> <a href="{{ page.source }}">{{ page.source }}</a>
+          {% endif %}
         </div>
         <footer>
           {%- if page.modify_date -%}

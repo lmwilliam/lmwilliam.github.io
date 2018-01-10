@@ -1,9 +1,9 @@
 #=========================================================
 # Base settings
 #=========================================================
-url: https://basharbuddha.github.io
+# url: https://basharbuddha.github.io
 baseurl: /
-titles: 巴夏影音訊息彙集
+title: 巴夏影音訊息彙集
 description: 👽
 
 
@@ -36,8 +36,8 @@ timezone: Asia/Taipei
 # Author & social
 #=========================================================
 author:
-  name: Bashar Buddha
-  email:  bashar.buddha@gmail.com
+  name: Bashar.Buddha
+  # email:  bashar.buddha@gmail.com
   # facebook:  #your Facebook username
   # twitter:  #your Twitter username
   # github:  #your GitHub username

@@ -1,6 +1,6 @@
 {% assign _content = page.text | strip_html | newline_to_br | strip_newlines %}
 {% assign _content = _content | replace: '<br />', '</p><p>' %}
-{% assign _endings = "。 ， ？ ！ ）" | split: " " %}
+{% assign _endings = "。 ， ？ ！ ） 」" | split: " " %}
 {% for _element in _endings %}
   {% capture _from %}{{ _element }}{% endcapture %}
   {%- if _element == '，' -%}

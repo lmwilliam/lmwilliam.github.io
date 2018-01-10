@@ -1,10 +1,10 @@
 ---
 layout: post
-title: http://san23.pixnet.net/blog/post/63702643
-key: 20180110_text_http://san23.pixnet.net/blog/post/63702643
+title: 巴夏：進入第四密度
+key: 20180110_text_巴夏：進入第四密度
 category: text
 tags: 文字
-source: 巴夏：進入第四密度
+source: http://san23.pixnet.net/blog/post/63702643
 ---
 
 

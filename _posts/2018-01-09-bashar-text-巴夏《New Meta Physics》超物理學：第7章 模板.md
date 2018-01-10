@@ -32,7 +32,7 @@ X + Y + Z + T + (-X) + (-Y) + (-Z) + (-T) =  O
 
 作為象徵性表達的幾何圖解如下：
 
-![雙重菱錐四面體](https://raw.githubusercontent.com/basharbuddha/images/master/%E5%B7%B4%E5%A4%8F%E3%80%8ANew%20Meta%20Physics%E3%80%8B%E8%B6%85%E7%89%A9%E7%90%86%E5%AD%B8%EF%BC%9A%E7%AC%AC%E4%B8%83%E7%AB%A0%20%E6%A8%A1%E6%9D%BF%EF%BC%88%E5%85%AB%EF%BC%89-%E9%9B%99%E9%87%8D%E8%8F%B1%E9%8C%90%E5%9B%9B%E9%9D%A2%E9%AB%94.gif)
+![雙重菱錐四面體](/assets/images/巴夏《New Meta Physics》超物理學：第七章 模板（八）-雙重菱錐四面體.gif)
 
 **雙重棱錐四面體**
 

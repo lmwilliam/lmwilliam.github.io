@@ -1,5 +1,5 @@
 ---
-layout: blog-default-compress
+layout: blog-default
 ---
 
 <div class="m-post">
@@ -11,6 +11,7 @@ layout: blog-default-compress
           {%- include snippets/page-title.html -%}
           <h1 itemprop="headline" itemprop="name headline">{{ __return }}</h1>
           {%- include blog/article-data.html -%}
+          <hr />
         </header>
         <div class="m-article-content js-article-content" itemprop="articleBody">
           {% if page.category == 'video' %}
@@ -23,7 +24,9 @@ layout: blog-default-compress
             {% endif %}
           {% endif %}
 
-          {{ content }}
+          {% capture _content %}{{ content }}{% endcapture %}
+          {% assign _content = _content | replace: "巴夏：", "<mark>巴夏</mark>：" %}
+          {{ _content }}
 
           {% if page.source %}
             <hr />

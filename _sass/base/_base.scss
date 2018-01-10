@@ -95,3 +95,9 @@ button {
   border-width: 0;
   font-size: $base-font-size;
 }
+
+hr {
+  border: 0 solid $border-color;
+  border-top-width: 2px;
+  margin: $base-font-size 0;
+}

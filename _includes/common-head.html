@@ -8,3 +8,5 @@
 {%- assign __path = '/feed.xml' -%}
 {%- include snippets/prepend-baseurl.html -%}
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ __return | prepend: site.url }}">
+
+{%- include facebook-og.html -%}

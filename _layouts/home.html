@@ -57,7 +57,44 @@ layout: blog-default
               <div class="icon icon--prrevious">{%- include icon/previous.svg -%}</div></div>
             </li>
           {%- endif -%}
-          {%- for page in (1..paginator.total_pages) -%}
+
+          {%- if paginator.total_pages > 11 and paginator.page > 6 -%}
+            {%- if site.paths.base -%}
+              {%- assign __path = site.paths.base -%}
+            {%- else -%}
+              {%- assign __path = '/' -%}
+            {%- endif -%}
+            {%- include snippets/prepend-baseurl.html -%}
+            {%- assign href = __return -%}
+            <li>
+              <a class="round-button" href="{{ href }}"><span>1</span></a>
+            </li>
+            {%- if paginator.page != 7 -%}
+              <li>
+                <div class="round-button inactive">⋯</div>
+              </li>
+            {%- endif -%}
+          {%- endif -%}
+
+          {%- if paginator.total_pages > 11 -%}
+            {%- assign _min = paginator.page | minus: 5 -%}
+            {%- assign _max = paginator.page | plus: 5 -%}
+            {%- if _min <= 0 -%}
+              {%- assign _plus = _min | abs | plus: 1 -%}
+              {%- assign _max = _max | plus: _plus -%}
+              {%- assign _min = 1 -%}
+            {%- endif -%}
+            {%- if _max > paginator.total_pages -%}
+              {%- assign _minus = _max | minus: paginator.total_pages -%}
+              {%- assign _max = paginator.total_pages -%}
+              {%- assign _min = _min | minus: _minus -%}
+            {%- endif -%}
+          {%- else -%}
+            {%- assign _min = 1 -%}
+            {%- assign _max = paginator.total_pages -%}
+          {%- endif -%}
+
+          {%- for page in (_min.._max) -%}
             {%- if page == paginator.page -%}
               <li>
                 <div class="round-button cur"><span>{{ page }}</span></div>
@@ -82,6 +119,22 @@ layout: blog-default
               </li>
             {%- endif -%}
           {%- endfor -%}
+
+          {%- assign _show_lastpage_limit = paginator.total_pages | minus: 6 -%}
+          {%- if paginator.total_pages > 11 and paginator.page <= _show_lastpage_limit -%}
+            {%- if paginator.page != _show_lastpage_limit -%}
+              <li>
+                <div class="round-button inactive">⋯</div>
+              </li>
+            {%- endif -%}
+            {%- assign __path = site.paginate_path -%}
+            {%- include snippets/prepend-baseurl.html -%}
+            {%- assign href = __return -%}
+            <li>
+              <a class="round-button" href="{{ href | replace: ':num', paginator.total_pages }}"><span>{{ paginator.total_pages }}</span></a>
+            </li>
+          {%- endif -%}
+
           {%- if paginator.next_page -%}
             {%- assign __path = paginator.next_page_path -%}
             {%- include snippets/prepend-baseurl.html -%}

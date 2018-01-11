@@ -102,6 +102,7 @@ exclude:
   - /screenshots
   - /test
   - /vendor
+  - .sass-cache
 
 
 #=========================================================

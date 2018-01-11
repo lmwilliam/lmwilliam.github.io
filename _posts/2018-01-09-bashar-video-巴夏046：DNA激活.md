@@ -4,7 +4,7 @@ title: 巴夏046：DNA激活
 key: 20180109_video_巴夏046：DNA激活
 category: video
 google_video_id: 11dhY21nA-UzOvHf1Lsx52KZuj-4Cv0UGpw
-tags: [影片, 影片｜編號系列]
+tags: [影片｜編號系列]
 text: |
   問：日安。
 

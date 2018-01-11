@@ -3,7 +3,7 @@ layout: post
 title: 巴夏《New Meta Physics》超物理學：第一章 宗教
 key: 20180109_text_巴夏《New Meta Physics》超物理學：第一章 宗教
 category: text
-tags: [文字, 巴夏超物理學]
+tags: [書, 巴夏超物理學]
 source: http://blog.sina.com.cn/s/blog_5082b8240106dcw5.html
 text: |
   ## 第一節

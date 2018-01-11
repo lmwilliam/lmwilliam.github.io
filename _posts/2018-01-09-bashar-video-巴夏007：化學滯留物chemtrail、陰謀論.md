@@ -4,7 +4,7 @@ title: 巴夏007：化學滯留物chemtrail、陰謀論
 key: 20180109_video_巴夏007：化學滯留物chemtrail、陰謀論
 category: video
 google_video_id: 1gOEvBYhto9L-p5yIOwtR8aD_2sareJpJkg
-tags: [影片, 影片｜編號系列]
+tags: [影片｜編號系列]
 text: |
   問：你一定知道化學滯留物（chem-trail）在全球範圍內都有。（註：用飛機在空中噴灑化學物質）
 

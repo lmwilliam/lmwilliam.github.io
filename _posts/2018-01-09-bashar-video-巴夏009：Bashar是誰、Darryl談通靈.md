@@ -4,7 +4,7 @@ title: 巴夏009：Bashar是誰、Darryl談通靈
 key: 20180109_video_巴夏009：Bashar是誰、Darryl談通靈
 category: video
 google_video_id: 1-sV8ItE29x_isCoW7W2PCeCjTc_eDeoZlQ
-tags: [影片, 影片｜編號系列]
+tags: [影片｜編號系列]
 text: |
   ### 第一部分 巴夏是誰？
 

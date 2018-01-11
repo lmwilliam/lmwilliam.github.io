@@ -4,7 +4,7 @@ title: 巴夏036：同時性（Synchronicity）
 key: 20180109_video_巴夏036：同時性（Synchronicity）
 category: video
 google_video_id: 1WFlh8MY4HCkfXJX4uLW8FguaR7soV-8giw
-tags: [影片, 影片｜編號系列]
+tags: [影片｜編號系列]
 text: |
   你是否有過叫做「即視感」的經歷？ 那是對於在當下經歷著你稱作「過去」或「未來」的體驗的一種表示，這就是那種體驗的真實面目。因為當你有「即視感」時，你會知道什麼事情即將發生。因為你感到它曾經發生過，你正體驗著它的「無時間性」。
 

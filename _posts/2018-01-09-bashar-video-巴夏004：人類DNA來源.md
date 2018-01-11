@@ -4,7 +4,7 @@ title: 巴夏004：人類DNA來源
 key: 20180109_video_巴夏004：人類DNA來源
 category: video
 google_video_id: 1ZI5cdFVRoRwP00jKeOOKHAm3726zlL2lwg
-tags: [影片, 影片｜編號系列]
+tags: [影片｜編號系列]
 text: |
   問：你好，巴夏！
 

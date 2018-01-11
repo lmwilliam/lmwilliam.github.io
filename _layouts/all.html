@@ -36,7 +36,7 @@ titles:
         {%- include snippets/locale-to-string.html -%}
         <li class="js-post-block" data-tag="{{ _tags }}">
           <span class="post-date">{{ post.date | date: __return }}</span>
-          <a class="post-link" href="{{ href }}">{{ post.title }}</a>
+          <a class="post-link" target="_blank" href="{{ href }}">{{ post.title }}</a>
         </li>
         {%- if forloop.last -%}</ul></section>{%- endif -%}
       {%- endfor -%}

@@ -12,10 +12,10 @@ layout: blog-default
           <h1><a href="{{ href }}">{{ post.title }}</a></h1>
           <div class="m-article-content">
             {%- if site.excerpt_type == 'html' -%}
-              {{ post.excerpt }}
+              {{ post.text }}
             {%- else -%}
               {%- if post.category == 'text' -%}
-                {{ post.excerpt | strip_html | truncate: 150 }}
+                {{ post.text | strip_html | truncate: 150 }}
               {%- else -%}
                 {% if post.category == 'video' %}
                   {% if post.google_video_id %}
@@ -24,7 +24,7 @@ layout: blog-default
                     <div class="video-container"><iframe src="https://drive.google.com/file/d/{{ post.google_video_ids[0] }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div>
                   {% endif %}
                 {% endif %}
-                {{ post.excerpt | strip_html | truncate: 100 }}
+                {{ post.text | strip_html | truncate: 100 }}
               {%- endif -%}
             {%- endif -%}
           </div>

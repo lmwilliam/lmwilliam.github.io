@@ -24,7 +24,7 @@ layout: blog-default
             {% endif %}
           {% endif %}
 
-          {% capture _content %}{{ content }}{% endcapture %}
+          {% assign _content = page.text | markdownify %}
           {% assign _content = _content | replace: "巴夏：", "<mark>巴夏</mark>：" %}
           {{ _content }}
 

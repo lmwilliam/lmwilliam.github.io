@@ -121,6 +121,12 @@ algolia:
   application_id: VXNUMUQ10M
   index_name: basharbuddha
   search_only_api_key: 2454842b9872cfac31e11c2427623f10
+  nodes_to_index: 'p'
+  files_to_exclude:
+    - about.md
+    - search.html
+    - all.html
+    - 404.html
 
 
 #=========================================================

@@ -9,6 +9,15 @@ const search = instantsearch({
   appId: '{{ site.algolia.application_id }}',
   apiKey: '{{ site.algolia.search_only_api_key }}',
   indexName: '{{ site.algolia.index_name }}',
+  searchParameters: {
+    attributesToRetrieve: [
+      "title",
+      "tags",
+      "date",
+      "slug",
+      "category"
+    ]
+  },
   searchFunction: function(helper) {
     if (helper.state.query === '') {
       $('#search-hits').html('');
@@ -25,8 +34,8 @@ const hitTemplate = function(hit) {
   }
 
   let title = '';
-  if (hit._highlightResult.title) {
-    title = hit._highlightResult.title.value;
+  if (hit._snippetResult.title) {
+    title = hit._snippetResult.title.value;
   }
   else if (hit.titles) {
     const lang = $('html').attr('lang');
@@ -34,7 +43,7 @@ const hitTemplate = function(hit) {
   }
 
   const url = hit.url;
-  const content = hit._highlightResult.html.value;
+  const content = hit._snippetResult.html.value;
 
   let tags_html = '';
   if (hit.tags) {

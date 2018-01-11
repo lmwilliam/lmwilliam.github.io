@@ -1,0 +1,31 @@
+{% assign _content = page.text | markdownify | strip_html | newline_to_br | strip_newlines %}
+
+{% assign _endings = "。 ， ？ ！ ）" | split: " " %}
+{% for _item in _endings %}
+  {% capture _from %}{{ _item }}{% endcapture %}
+  {% capture _to %}{{ _item }}<br />{% endcapture %}
+  {% assign _content = _content | replace: _from, _to %}
+{% endfor %}
+
+{% assign _content = _content | replace: "<br /><br />", "<br />" %}
+{% assign _content = _content | replace: "<br /><br />", "<br />" %}
+{% assign _lines = _content | split: "<br />" %}
+
+{% assign _sum = 0 %}
+{% assign _output = '' %}
+{% for _line in _lines %}
+  {% assign _size = _line | size %}
+  {% assign _sum = _sum | plus: _size %}
+  {% if _sum >= 1500 %}
+    {% assign _output = _output | append: "</p><p>" %}
+    {% assign _output = _output | append: _line %}
+    {% assign _sum = _size %}
+  {% else %}
+    {% assign _output = _output | append: _line %}
+  {% endif %}
+{% endfor %}
+
+{% assign _output = _output | prepend: "<p>" %}
+{% assign _output = _output | append: "</p>" %}
+
+{{ _output }}

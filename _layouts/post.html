@@ -2,6 +2,9 @@
 layout: blog-default
 ---
 
+<script src="/assets/js/jquery.lazyloadxt.min.js"></script>
+<script src="/assets/js/jquery.lazyloadxt.extra.min.js"></script>
+
 <div class="m-post">
   <div class="main js-main">
     <div class="col-1">
@@ -19,7 +22,7 @@ layout: blog-default
               <div class="video-container"><iframe src="https://drive.google.com/file/d/{{ page.google_video_id }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div>
             {% elsif page.google_video_ids %}
               {% for item in page.google_video_ids %}
-                <div class="video-container"><iframe src="https://drive.google.com/file/d/{{ item }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div><br />
+                <div class="video-container"><iframe data-src="https://drive.google.com/file/d/{{ item }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div><br />
               {% endfor %}
             {% endif %}
           {% endif %}

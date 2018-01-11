@@ -1,6 +1,10 @@
 ---
 layout: blog-default
 ---
+
+<script src="/assets/js/jquery.lazyloadxt.min.js"></script>
+<script src="/assets/js/jquery.lazyloadxt.extra.min.js"></script>
+
 <div class="m-home">
   <div class="main">
     <div class="m-post-list">
@@ -19,9 +23,13 @@ layout: blog-default
               {%- else -%}
                 {% if post.category == 'video' %}
                   {% if post.google_video_id %}
-                    <div class="video-container"><iframe src="https://drive.google.com/file/d/{{ post.google_video_id }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div>
+                    <div class="video-container">
+                      <iframe data-src="https://drive.google.com/file/d/{{ post.google_video_id }}/preview" frameborder="0" allowfullscreen class="video"></iframe>
+                    </div>
                   {% elsif post.google_video_ids %}
-                    <div class="video-container"><iframe src="https://drive.google.com/file/d/{{ post.google_video_ids[0] }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div>
+                    <div class="video-container">
+                      <iframe data-src="https://drive.google.com/file/d/{{ post.google_video_ids[0] }}/preview" frameborder="0" allowfullscreen class="video"></iframe>
+                    </div>
                   {% endif %}
                 {% endif %}
                 {{ post.text | strip_html | truncate: 100 }}

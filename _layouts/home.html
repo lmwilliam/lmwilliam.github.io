@@ -31,17 +31,16 @@ layout: blog-default
                       <iframe data-src="https://drive.google.com/file/d/{{ post.google_video_ids[0] }}/preview" frameborder="0" allowfullscreen class="video"></iframe>
                     </div>
                   {% endif %}
+                  {{ post.text | strip_html | truncate: 150 }}
                 {% endif %}
               {%- endif -%}
             {%- endif -%}
           </div>
-          {%- if post.category == 'text' -%}
-            {%- assign __path = post.url -%}
-            {%- include snippets/prepend-baseurl.html -%}
-            {%- assign __locale = site.data.locale.READMORE -%}
-            {%- include snippets/locale-to-string.html -%}
-            <a href="{{ href }}">{{ __return }}</a>
-          {%- endif -%}
+          {%- assign __path = post.url -%}
+          {%- include snippets/prepend-baseurl.html -%}
+          {%- assign __locale = site.data.locale.READMORE -%}
+          {%- include snippets/locale-to-string.html -%}
+          <a href="{{ href }}">{{ __return }}</a>
           {%- include blog/article-data.html -%}
         </article>
       {%- endfor -%}

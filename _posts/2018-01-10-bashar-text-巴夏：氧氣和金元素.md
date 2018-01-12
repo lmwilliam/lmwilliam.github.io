@@ -6,7 +6,7 @@ category: text
 tags: 文字
 source: http://san23.pixnet.net/blog/post/63330967
 text: |
-  問：你對呼吸有什麼看法？因為我發現在哭泣時…
+  問：你對呼吸有什麼看法？因為我發現在哭泣時⋯
 
   巴夏：沒錯！它有平衡作用，充能作用。
 

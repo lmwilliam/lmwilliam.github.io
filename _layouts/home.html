@@ -31,7 +31,7 @@ layout: blog-default
                       <iframe data-src="https://drive.google.com/file/d/{{ post.google_video_ids[0] }}/preview" frameborder="0" allowfullscreen class="video"></iframe>
                     </div>
                   {% endif %}
-                  {{ post.text | strip_html | truncate: 150 }}
+                  {{ post.text | markdownify | strip_html | truncate: 150 }}
                 {% endif %}
               {%- endif -%}
             {%- endif -%}

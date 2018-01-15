@@ -1,7 +1,7 @@
 ---
 layout: post
-title: POSTTITLE
-key: 20180116_video_POSTTITLE
+title: 巴夏：心靈咖啡館
+key: 20180116_video_巴夏：心靈咖啡館
 category: video
 google_video_id: 1wlm1qcAbtqap-ExeEMN_PZOo9dDQmhACyg
 tags: [影片]

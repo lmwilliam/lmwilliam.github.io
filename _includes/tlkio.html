@@ -65,4 +65,12 @@
       $('#tlkio-container').addClass('on');
     }
   });
+
+  $(document).click(function(event) {
+    if(!$(event.target).closest('#tlkio-container').length && !$(event.target).closest('#tlkio-button').length) {
+      if($('#tlkio-container').hasClass('on')) {
+        $('#tlkio-container').removeClass('on');
+      }
+    }
+  });
 </script>

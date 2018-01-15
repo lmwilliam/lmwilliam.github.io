@@ -45,6 +45,10 @@ figure,
   height: 0;
   padding-bottom: 56.25%;
   background: #eee;
+  display: none;
+}
+.boom .video-container {
+  display: block;
 }
 .video-container:before {
   content: "影片載入中，請稍候...";

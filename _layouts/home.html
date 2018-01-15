@@ -166,6 +166,11 @@ layout: blog-default
   <script src="https://cdn1.lncld.net/static/js/3.4.1/av-min.js"></script>
   <script>
     $(function() {
+      $.get("http://ipinfo.io", function (result) {
+        if (result.country != 'US') {
+          $('body').addClass('boom');
+        }
+      }, "jsonp");
       AV.init({
         appId: '{{ site.leancloud.app_id }}',
         appKey: '{{ site.leancloud.app_key }}'

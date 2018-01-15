@@ -76,6 +76,11 @@ layout: blog-default
 
 <script src="//cdn.bootcss.com/toc/0.3.2/toc.min.js"></script>
 <script type="text/javascript">
+  $.get("//ipinfo.io", function (result) {
+    if (result.country != 'US') {
+      $('body').addClass('boom');
+    }
+  }, "jsonp");
   window.throttle = function(func, wait) {
     var args, result, thisArg, timeoutId, lastCalled = 0;
 

@@ -17,12 +17,12 @@ nav_lists:
       zh-Hans: 关于
       zh-Hant: 關於
     url: /about.html
-  - titles:
-      en: Search
-      zh: 搜索
-      zh-Hans: 搜索
-      zh-Hant: 搜尋
-    url: /search.html
+  # - titles:
+  #     en: Search
+  #     zh: 搜索
+  #     zh-Hans: 搜索
+  #     zh-Hant: 搜尋
+  #   url: /search.html
 
 
 #=========================================================

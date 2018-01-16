@@ -7,45 +7,52 @@ layout: blog-default
 
 <div class="m-home">
   <div class="main">
-    <div class="m-post-list">
-      {%- for post in paginator.posts -%}
-        <article>
-          {%- assign __path = post.url -%}
-          {%- include snippets/prepend-baseurl.html -%}
-          {%- assign href = __return -%}
-          <h1><a href="{{ href }}">{{ post.title }}</a></h1>
-          <div class="m-article-content">
-            {%- if site.excerpt_type == 'html' -%}
-              {{ post.text }}
-            {%- else -%}
-              {%- if post.category == 'text' -%}
-                {{ post.text | truncate: 250 | markdownify }}
-              {%- else -%}
-                {% if post.category == 'video' %}
-                  {% if post.google_video_id %}
-                    <div class="video-container">
-                      <iframe data-src="https://drive.google.com/file/d/{{ post.google_video_id }}/preview" frameborder="0" allowfullscreen class="video"></iframe>
-                    </div>
-                  {% elsif post.google_video_ids %}
-                    <div class="video-container">
-                      <iframe data-src="https://drive.google.com/file/d/{{ post.google_video_ids[0] }}/preview" frameborder="0" allowfullscreen class="video"></iframe>
-                    </div>
-                  {% endif %}
-                  {{ post.text | markdownify | strip_html | truncate: 150 }}
-                {% endif %}
-              {%- endif -%}
-            {%- endif -%}
-          </div>
-          {%- assign __path = post.url -%}
-          {%- include snippets/prepend-baseurl.html -%}
-          {%- assign __locale = site.data.locale.READMORE -%}
-          {%- include snippets/locale-to-string.html -%}
-          <a href="{{ href }}">{{ __return }}</a>
-          {%- include blog/article-data.html -%}
-        </article>
-      {%- endfor -%}
+    <div id="search-container">
+      <div id="search-searchbar"></div>
+      <div class="algolia-logo" style="margin: 1rem 0; float: right"><img src="https://www.algolia.com/assets/pricing_new/algolia-powered-by-ac7dba62d03d1e28b0838c5634eb42a9.svg" /></div>
+      <div class="m-post-list" id="search-hits" style="clear:both"></div>
+      {%- include algolia.html -%}
     </div>
-    {%- if paginator.total_pages > 1 -%}
+    <div id="post-list">
+      <div class="m-post-list">
+        {%- for post in paginator.posts -%}
+          <article>
+            {%- assign __path = post.url -%}
+            {%- include snippets/prepend-baseurl.html -%}
+            {%- assign href = __return -%}
+            <h1><a href="{{ href }}">{{ post.title }}</a></h1>
+            <div class="m-article-content">
+              {%- if site.excerpt_type == 'html' -%}
+                {{ post.text }}
+              {%- else -%}
+                {%- if post.category == 'text' -%}
+                  {{ post.text | truncate: 250 | markdownify }}
+                {%- else -%}
+                  {% if post.category == 'video' %}
+                    {% if post.google_video_id %}
+                      <div class="video-container">
+                        <iframe data-src="https://drive.google.com/file/d/{{ post.google_video_id }}/preview" frameborder="0" allowfullscreen class="video"></iframe>
+                      </div>
+                    {% elsif post.google_video_ids %}
+                      <div class="video-container">
+                        <iframe data-src="https://drive.google.com/file/d/{{ post.google_video_ids[0] }}/preview" frameborder="0" allowfullscreen class="video"></iframe>
+                      </div>
+                    {% endif %}
+                    {{ post.text | markdownify | strip_html | truncate: 150 }}
+                  {% endif %}
+                {%- endif -%}
+              {%- endif -%}
+            </div>
+            {%- assign __path = post.url -%}
+            {%- include snippets/prepend-baseurl.html -%}
+            {%- assign __locale = site.data.locale.READMORE -%}
+            {%- include snippets/locale-to-string.html -%}
+            <a href="{{ href }}">{{ __return }}</a>
+            {%- include blog/article-data.html -%}
+          </article>
+        {%- endfor -%}
+      </div>
+      {%- if paginator.total_pages > 1 -%}
         <nav class="m-pagination">
           {%- assign __locale = site.data.locale.STATISTICS -%}
           {%- include snippets/locale-to-string.html -%}
@@ -159,7 +166,8 @@ layout: blog-default
           {%- endif -%}
           </ul>
         </nav>
-    {%- endif -%}
+      {%- endif -%}
+    </div>
   </div>
 </div>
 {%- if site.leancloud.app_id and site.leancloud.app_key and site.leancloud.app_class and site.isdebug == false -%}

@@ -22,7 +22,15 @@ const search = instantsearch({
   searchFunction: function(helper) {
     if (helper.state.query === '') {
       $('#search-hits').html('');
+      if ($('#post-list').length) {
+        $('#post-list').show();
+      }
       return;
+    }
+    else {
+      if ($('#post-list').length) {
+        $('#post-list').hide();
+      }
     }
     helper.search();
   }
@@ -100,5 +108,12 @@ search.start();
   }
   .ais-hits.ais-hits__empty {
     margin-top: 1rem;
+  }
+  #search-container {
+    margin-top: 1rem;
+    margin-bottom: -3rem;
+  }
+  #search-hits .ais-hits--item:last-child {
+    padding-bottom: 3rem;
   }
 </style>

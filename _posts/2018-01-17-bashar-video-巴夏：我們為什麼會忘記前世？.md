@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 巴夏：我們為什麼會忘記前世？
-key: 20180116_video_巴夏：我們為什麼會忘記前世？
+key: 20180117_video_巴夏：我們為什麼會忘記前世？
 category: video
-google_video_id: VIDEOID
+google_video_id: 1RnAEjkVSi0AyXTR0tC11RgerwHfzFgA-cg
 tags: [影片]
 text: |
   問：日安巴夏！

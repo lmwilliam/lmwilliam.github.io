@@ -3,7 +3,7 @@ layout: post
 title: 巴夏：第一次接觸推遲了嗎，為什麼？
 key: 20180116_video_巴夏：第一次接觸推遲了嗎，為什麼？
 category: video
-google_video_id: VIDEOID
+google_video_id: 1RA_DKGlsF8yl1TwWe_P75GmobcwsU_E2ZQ
 tags: [影片]
 text: |
   問：我愛你，巴夏

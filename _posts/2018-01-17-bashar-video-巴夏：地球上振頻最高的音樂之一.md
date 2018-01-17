@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 巴夏：地球上振頻最高的音樂之一
-key: 20180116_video_巴夏：地球上振頻最高的音樂之一
+key: 20180117_video_巴夏：地球上振頻最高的音樂之一
 category: video
-google_video_id: VIDEOID
+google_video_id: 1bHQrb8iSBHLv0MjFvta1jhX7AR3IYNTh8Q
 tags: [影片]
 text: |
   主持人：我們現在要上一道很特別、很意外的「大餐」，這也很符合巴夏的做事方式。Kingmer Charlie 上次也來到我們的現場，他演奏了一種叫 Hang（手碟）的樂器，大家歡迎 Kim 上場。

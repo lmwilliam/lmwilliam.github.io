@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 巴夏：世界和平 World Peace
-key: 20180118_text_巴夏：世界和平 World Peace
+key: 20180118_text_巴夏：世界和平_World_Peace
 category: text
 tags: 文字
 source: https://www.facebook.com/notes/bashar-%E5%B7%B4%E5%A4%8F-%E5%A4%96%E6%98%9F%E4%BA%BA-fan-club-taiwan/%E5%B7%B4%E5%A4%8F%E4%B8%96%E7%95%8C%E5%92%8C%E5%B9%B3-world-peace-1986/822156381297440/

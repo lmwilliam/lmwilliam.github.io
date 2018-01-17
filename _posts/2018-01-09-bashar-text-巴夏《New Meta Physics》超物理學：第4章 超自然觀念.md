@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 巴夏《New Meta Physics》超物理學：第四章 超自然觀念
-key: 20180109_text_巴夏《New Meta Physics》超物理學：第四章 超自然觀念
+key: 20180109_text_巴夏《New Meta Physics》超物理學：第四章_超自然觀念
 category: text
 tags: [書, 巴夏超物理學]
 source: http://blog.sina.com.cn/s/blog_5082b8240106ddq4.html

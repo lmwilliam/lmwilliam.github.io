@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 巴夏：與全有（All That Is）保持連接
-key: 20180117_text_巴夏：與全有（All That Is）保持連接
+key: 20180117_text_巴夏：與全有（All_That_Is）保持連接
 category: text
 tags: 文字
 source: http://blog.sina.com.cn/s/blog_a491af250102vimu.html

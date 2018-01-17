@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 巴夏：關於「小我 Ego」
-key: 20180110_text_巴夏：關於「小我 Ego」
+key: 20180110_text_巴夏：關於「小我_Ego」
 category: text
 tags: 文字
 source: http://blog.sina.com.cn/s/blog_5082b8240106f9z7.html

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 巴夏：Robert 6
-key: 20180116_text_巴夏：Robert 6
+key: 20180116_text_巴夏：Robert_6
 category: text
 tags: 文字
 source: http://blog.sina.com.cn/s/blog_cd7452c20102w9gn.html

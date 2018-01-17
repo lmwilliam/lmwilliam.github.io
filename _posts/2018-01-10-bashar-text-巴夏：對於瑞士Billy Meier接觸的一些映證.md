@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 巴夏：對於瑞士Billy Meier接觸的一些映證
-key: 20180110_text_巴夏：對於瑞士Billy Meier接觸的一些映證
+key: 20180110_text_巴夏：對於瑞士Billy_Meier接觸的一些映證
 category: text
 tags: 文字
 source: http://san23.pixnet.net/blog/post/62879912

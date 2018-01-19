@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 巴夏：大道至簡
-key: 20180110_text_巴夏：大道至簡
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64454371
+key: 20180120_video_巴夏：大道至簡
+category: video
+google_video_id: 1S0CD6sI5aiFwkxlJrEiz8zVdTpviwT304Q
+tags: [影片]
 text: |
   巴夏：物質世界，正如我之前說的，只是一面鏡子。任何你所定義的，任何你所相信是最為真實的，就是你得到的（Whatever you believe is most true Is what you get）
 

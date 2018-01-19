@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 巴夏：你來到這個房間，就是要療癒這個房間
-key: 20180110_text_巴夏：你來到這個房間，就是要療癒這個房間
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64415548
+key: 20180119_video_巴夏：你來到這個房間，就是要療癒這個房間
+category: video
+google_video_id: 1qmtnC6gkvUquXOr4lsLHaDxqaiLNQ3l3Ig
+tags: [影片]
 text: |
   問：你好，巴夏！
 

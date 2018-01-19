@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 巴夏：你正在和你的高我對話！
-key: 20180110_text_巴夏：你正在和你的高我對話！
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64514533
+title: 巴夏：你正在和你的高我對話
+key: 20180119_video_巴夏：你正在和你的高我對話
+category: video
+google_video_id: 1R6uOKQgk2Dey0qT6lp_w4QimO-3UBjocRA
+tags: [影片]
 text: |
   問：你好，巴夏！
 

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 巴夏：你只有跳出來了才能知道
-key: 20180110_text_巴夏：你只有跳出來了才能知道
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64156678
+title: 巴夏：你只有跳出來了，才能知道
+key: 20180119_video_巴夏：你只有跳出來了，才能知道
+category: video
+google_video_id: 1U-icOpUjg-m6RPI1ibrgYkGIbky8wKD3BA
+tags: [影片]
 text: |
   問：你好，巴夏！
 

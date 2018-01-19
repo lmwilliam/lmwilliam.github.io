@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 巴夏：一切都是你的觀點
-key: 20180110_text_巴夏：一切都是你的觀點
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/63695101
+title: 巴夏：一切都是你的觀點，你的意見
+key: 20180119_video_巴夏：一切都是你的觀點，你的意見
+category: video
+google_video_id: 1TbfMZql4hkQQjAZ8UwwBAOzGx99F3pGTjg
+tags: [影片]
 text: |
   問：你好，巴夏！
 

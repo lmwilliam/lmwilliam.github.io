@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 巴夏：UFO飛船目擊的原因和意義
-key: 20180110_text_巴夏：UFO飛船目擊的原因和意義
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64139029
+key: 20180119_video_巴夏：UFO飛船目擊的原因和意義
+category: video
+google_video_id: 1minDBUXKpLf-6YrRR0bH27Sses6fa_f-0w
+tags: [影片]
 text: |
   問：日安，巴夏！
 
@@ -14,7 +14,11 @@ text: |
 
   巴夏：好吧，如此興奮的你
 
-  問：好的，我馬上進入正題，兩個多月前，我的兄弟給我看了你的影片，岱羅被一個名叫Alan steinfeld的採訪，這是我今年第一次看到你的影片，我當時不知道它，但這是我的生命改變的一天
+  問：好的，我馬上進入正題。
+
+  巴夏：好的
+
+  問：兩個多月前，我的兄弟給我看了你的影片，岱羅被一個名叫Alan steinfeld的採訪，這是我今年第一次看到你的影片，我當時不知道它，但這是我的生命改變的一天
 
   巴夏：嗯，這是你改變的一天
 

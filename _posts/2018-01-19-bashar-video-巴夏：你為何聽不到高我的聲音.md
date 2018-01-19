@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 巴夏：為何聽不到高我的聲音
-key: 20180110_text_巴夏：為何聽不到高我的聲音
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/63482095
+title: 巴夏：你為何聽不到高我的聲音
+key: 20180119_video_巴夏：你為何聽不到高我的聲音
+category: video
+google_video_id: 1IhmKNi-shXWCsIZVhsJeauCJ12sXhDtzhQ
+tags: [影片]
 text: |
   問：你好，巴夏！
 
@@ -32,8 +32,7 @@ text: |
 
   「哦！這條路我通常右轉，今天怎麼莫名其妙地左轉了呢？」，「但我左轉之後」，「偶然聽到的這個對話，給了我迫切需要的信息」，「這到底是怎麼一回事？」（怎麼自動發生的？）
 
-  The higher mind probably just needed to say
-  而你的高我，可能只需要輕聲地說：「左轉」，這是祂需要做的全部，你瞬間左轉的衝動，那一刻，你無意識的一個轉身，可能就是來自高我的一個強大的信息，但你不一定要知道這個，你只需要利用你所聽到的這個信息，這個暗示（建議），你明白嗎？
+  The higher mind probably just needed to say 而你的高我，可能只需要輕聲地說：「左轉」，這是祂需要做的全部，你瞬間左轉的衝動，那一刻，你無意識的一個轉身，可能就是來自高我的一個強大的信息，但你不一定要知道這個，你只需要利用你所聽到的這個信息，這個暗示（建議），你明白嗎？
 
   問：明白！
 

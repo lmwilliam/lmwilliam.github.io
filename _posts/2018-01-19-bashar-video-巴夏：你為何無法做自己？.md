@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 巴夏：你為什麼不做自己？
-key: 20180110_text_巴夏：你為什麼不做自己？
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64034443
+title: 巴夏：你為何無法做自己？
+key: 20180119_video_巴夏：你為何無法做自己？
+category: video
+google_video_id: 1RtiBOkpQXM_x5o8bx9Y9xqjBFFzQXTDoNw
+tags: [影片]
 text: |
   問：Hello！
 

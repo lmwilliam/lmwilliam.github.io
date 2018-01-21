@@ -1,12 +1,12 @@
 ---
 layout: post
 title: 巴夏：我需要屏蔽負面能量嗎？
-key: 20180110_text_巴夏：我需要屏蔽負面能量嗎？
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64711387
+key: 20180121_video_巴夏：我需要屏蔽負面能量嗎？
+category: video
+google_video_id: 1sMVl66xkj7WxlR5yztglH50snNFU5A8HpA
+tags: [影片]
 text: |
-  問：如果我到一個人很多的地方，比如說進入一個房間，有時候，我能感覺到很多負面能量衝我湧過來
+  問：我還有一個問題，如果我到一個人很多的地方，比如說進入一個房間，有時候，我能感覺到很多負面能量衝我湧過來
 
   巴夏：這又能怎麼樣呢？
 

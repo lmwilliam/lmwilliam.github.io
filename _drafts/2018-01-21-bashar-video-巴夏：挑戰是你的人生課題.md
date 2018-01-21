@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 巴夏：挑戰是你的人生課題
-key: 20180110_text_巴夏：挑戰是你的人生課題
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/63988843
+key: 20180121_video_巴夏：挑戰是你的人生課題
+category: video
+google_video_id: 1VJ1uI6dd2DFaJ5zNFNh1SPEv80ytCI4eSw
+tags: [影片]
 text: |
   問：有種類型的人，比如說我，我們在身體上、精神上、靈性上、情緒上（甚至達到化學分子的程度），相信我們有能力去激勵、引導一部分人群，在和平、愛、團結和尊重的原則下，修補種族分歧，使用方法，同時創造（持續性）的個人內心和外在世界的和平，減少人世間的痛苦
 

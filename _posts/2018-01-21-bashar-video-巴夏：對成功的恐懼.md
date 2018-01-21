@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 巴夏：為什麼我們會害怕成為完整的自己？
-key: 20180110_text_巴夏：為什麼我們會害怕成為完整的自己？
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/63526666
+title: 巴夏：對成功的恐懼
+key: 20180121_video_巴夏：對成功的恐懼
+category: video
+google_video_id: 1u_IdnXqRYkGG8XYsviL9JX_Y_fxY3R3epw
+tags: [影片]
 text: |
   問：為什麼我們會害怕成為「完整的自己」？
 
@@ -51,8 +51,6 @@ text: |
   問：好的！謝謝你講解得這麼詳細！
 
   巴夏：不客氣！謝謝你問得這麼詳細！
-
-  譯者關於「定義」的理解：如果你把「飯前不洗手」的行為定義成「不衛生」，那你可能就會認為一個飯前從不洗手的人是不講衛生的。定義累積多了，就成「信念」。
 ---
 
 {%- include algolia-hack.html -%}

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 巴夏：感謝逝世的人
-key: 20180110_text_巴夏：感謝逝世的人
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64503010
+title: 巴夏：感謝逝世的人！
+key: 20180121_video_巴夏：感謝逝世的人！
+category: video
+google_video_id: 1GRd0xe1O2BSIIl2p7EvJX3hWH0f5ieIjYg
+tags: [影片]
 text: |
   問：昨天，我一個最好的朋友去世了，隨後我就感覺到，是他選擇離開這個地球，並且他仍然享受他的旅程，即使他已經去世了
 

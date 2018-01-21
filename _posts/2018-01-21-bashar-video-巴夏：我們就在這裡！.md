@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 巴夏：我們就在這裡！
-key: 20180110_text_巴夏：我們就在這裡！
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64289659
+key: 20180121_video_巴夏：我們就在這裡！
+category: video
+google_video_id: 1ioj6xu0eBVFklFvfgqokTu0H0lknYBYd6g
+tags: [影片]
 text: |
   問：你好！
 

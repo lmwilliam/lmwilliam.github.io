@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 巴夏：成熟&靈魂伴侶
-key: 20180110_text_巴夏：成熟&靈魂伴侶
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/63615550
+title: 巴夏：成熟＆靈魂伴侶
+key: 20180121_video_巴夏：成熟＆靈魂伴侶
+category: video
+google_video_id: 12QaX7J0ZqGa5-rRcpHUHuUQBq8t31VFHCw
+tags: [影片]
 text: |
   問：巴夏，你好！
 

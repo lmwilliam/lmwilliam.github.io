@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 巴夏：我是否走在正確的道路上？
-key: 20180110_text_巴夏：我是否走在正確的道路上？
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64680061
+key: 20180121_video_巴夏：我是否走在正確的道路上？
+category: video
+google_video_id: 11-nbN7Ou4Ry1PghY7SCTYeJkAlm2f_4jcw
+tags: [影片]
 text: |
   問：你好
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 巴夏《New Meta Physics》超物理學：第二章 科學
-key: 20180109_text_巴夏《New Meta Physics》超物理學：第二章_科學
+key: 20180109_text_巴夏《New_Meta_Physics》超物理學：第二章_科學
 category: text
 tags: [書, 巴夏超物理學]
 source: http://blog.sina.com.cn/s/blog_5082b8240106dd1s.html

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 巴夏《New Meta Physics》超物理學：第五章 轉世再生：過去現在未來
-key: 20180109_text_巴夏《New Meta Physics》超物理學：第五章_轉世再生：過去現在未來
+key: 20180109_text_巴夏《New_Meta_Physics》超物理學：第五章_轉世再生：過去現在未來
 category: text
 tags: [書, 巴夏超物理學]
 source: http://blog.sina.com.cn/s/blog_5082b8240106ddsd.html

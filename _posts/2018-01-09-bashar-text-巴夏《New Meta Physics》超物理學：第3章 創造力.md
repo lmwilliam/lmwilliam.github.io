@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 巴夏《New Meta Physics》超物理學：第三章 創造力
-key: 20180109_text_巴夏《New Meta Physics》超物理學：第三章_創造力
+key: 20180109_text_巴夏《New_Meta_Physics》超物理學：第三章_創造力
 category: text
 tags: [書, 巴夏超物理學]
 source: http://blog.sina.com.cn/s/blog_5082b8240106ddo7.html

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 巴夏《New Meta Physics》超物理學：第七章 模板
-key: 20180109_text_巴夏《New Meta Physics》超物理學：第七章_模板
+key: 20180109_text_巴夏《New_Meta_Physics》超物理學：第七章_模板
 category: text
 tags: [書, 巴夏超物理學]
 source: http://blog.sina.com.cn/s/blog_5082b8240106dec0.html

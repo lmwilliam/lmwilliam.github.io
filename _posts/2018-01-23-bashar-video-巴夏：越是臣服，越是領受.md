@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 巴夏：越是臣服，越是領受
-key: 20180110_text_巴夏：越是臣服，越是領受
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64420084
+key: 20180123_video_巴夏：越是臣服，越是領受
+category: video
+google_video_id: 1k53HYegSsZ4dZF3VTJGSkjWKCORbNszP4Q
+tags: [影片]
 text: |
   問：我現在所體驗到的是極大極大的臣服，因為在生活中，我的「自我意識許可」在不斷地在快速改變
 

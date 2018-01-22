@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 巴夏：為什麼要睡這麼久？
-key: 20180110_text_巴夏：為什麼要睡這麼久？
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64260388
+key: 20180123_video_巴夏：為什麼要睡這麼久？
+category: video
+google_video_id: 1VIMdagETr4RJglbgIxwmw3TwkHEQGPGKcw
+tags: [影片]
 text: |
   問：巴夏，你好！
 

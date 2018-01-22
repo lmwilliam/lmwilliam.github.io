@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 巴夏：視覺化的兩個重點（顯化）
-key: 20180115_text_巴夏：視覺化的兩個重點（顯化）
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/63471931
+key: 20180123_video_巴夏：視覺化的兩個重點（顯化）
+category: video
+google_video_id: 1yVifBgsqW75eqTewLN-dL6gCFCb2YjtW3w
+tags: [影片]
 text: |
   請記住兩個重點，第一，顯化，不是把你沒有的東西帶給你，而是調整頻率與它匹配，於是你就看見其實早已存在於此地的「它」，你已經擁有了你所需要的一切，你只是還不知道而已，因為你看不到它們，因為你還不是在那個波長上（頻率），理解這點很重要，這是區分你是否真的理解「顯化的意義」的很重要的一點
 

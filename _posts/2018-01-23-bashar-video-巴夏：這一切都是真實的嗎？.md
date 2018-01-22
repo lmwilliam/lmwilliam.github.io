@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 巴夏：這一切是真實的嗎？
-key: 20180110_text_巴夏：這一切是真實的嗎？
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64347736
+title: 巴夏：這一切都是真實的嗎？
+key: 20180123_video_巴夏：這一切都是真實的嗎？
+category: video
+google_video_id: 1LrtlalobHmbGBkAkZxpmU_lPil0z60r-hw
+tags: [影片]
 text: |
   問：還有最後一個問題，有一次我夢見你了，跟你的對話讓我感覺非常安心/如釋重負，畢竟⋯在遺忘的帷幕之中的線性時間⋯我⋯，你跟我說，我們將會有更多的交流互動，我想知道 這是我的想像力所虛構出來的，還是你意識中的一部分跟我交流呢？
 
@@ -26,7 +26,7 @@ text: |
 
   教授回答道：「當然了，哈利！這一切都發生在你頭腦之中！但為什麼說它不是真實的呢？」
 
-  不要覺得「空」和「有」有什麼區別（Don"t make a difference where none needs to exist）
+  不要覺得「空」和「有」有什麼區別（Don」t make a difference where none needs to exist）
 
   是這個和那個，不是這個或那個（It's This And That，Not This Or That）
 

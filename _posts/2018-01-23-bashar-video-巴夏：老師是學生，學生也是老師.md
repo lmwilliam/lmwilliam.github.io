@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 巴夏：老師是學生，學生也是老師
-key: 20180110_text_巴夏：老師是學生，學生也是老師
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/63534385
+key: 20180123_video_巴夏：老師是學生，學生也是老師
+category: video
+google_video_id: 10tzOV1oAKerOGHfOYM_AQHho3WJd0gL5uw
+tags: [影片]
 text: |
   問：五年前，也就是2009年
 

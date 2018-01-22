@@ -1,16 +1,16 @@
 ---
 layout: post
 title: 巴夏：給予和接受
-key: 20180110_text_巴夏：給予和接受
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/63417949
+key: 20180123_video_巴夏：給予和接受
+category: video
+google_video_id: 1T86VsQCdEkgSqilxbwdLW3V4OjgwZn_cOA
+tags: [影片]
 text: |
   問：巴夏，你好！
 
   巴夏：你好！
 
-  問：真是太好了！
+  問：真是太太太太好了！
 
   巴夏：是的！我同意
 

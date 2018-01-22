@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 巴夏：有心，還得有行！
-key: 20180110_text_巴夏：有心，還得有行！
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/64445059
+key: 20180123_video_巴夏：有心，還得有行！
+category: video
+google_video_id: 1GsfUsy2lt6xTk5-tk1a9O4W3CyUxn39sPg
+tags: [影片]
 text: |
   巴夏：現在，你們可以繼續正常的問答環節
 

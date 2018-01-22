@@ -1,16 +1,16 @@
 ---
 layout: post
 title: 巴夏：進入第四密度
-key: 20180110_text_巴夏：進入第四密度
-category: text
-tags: 文字
-source: http://san23.pixnet.net/blog/post/63702643
+key: 20180123_video_巴夏：進入第四密度
+category: video
+google_video_id: 1Wda1Utji9mlTfwh3CPhctVAlqN4P6N4hVg
+tags: [影片]
 text: |
   問：你好，巴夏！
 
   巴夏：你好！
 
-  問：我的問題是關於揚升，你能否跟我解釋揚升是怎麼運作的？
+  問：我的問題是關於「揚升」，你能否跟我解釋「揚升」是怎麼運作的？
 
   巴夏：簡單地說，揚升就是不斷地提高你的振頻，並體驗與之相對應的實相，通過在你的最高興奮上，盡你最大能力地去行動，並且對某個特定的結果沒有絲毫執著，你就不斷地擴展了你的意識，你就不斷地「揚升」，你能理解嗎？就是這麼簡單
 

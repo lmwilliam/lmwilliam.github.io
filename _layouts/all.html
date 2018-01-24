@@ -125,8 +125,7 @@ titles:
       tag === undefined || window.history.replaceState(null, '', window.location.href.split('?')[0] + '?tag=' + tag);
     }
 
-    var query = queryString(),
-      tag = undefined;
+    var query = queryString(), tag = undefined;
     query.tag === undefined || (tag = query.tag);
     tagSelect(tag);
   });

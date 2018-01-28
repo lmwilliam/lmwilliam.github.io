@@ -3,7 +3,7 @@ layout: post
 title: 巴夏：找到你最高的興奮
 key: 20180121_video_巴夏：找到你最高的興奮
 category: video
-google_video_id: 1yYxFUryppI8-92TpUjSbhm9gkA_DN4LfNw
+google_video_id: 1HrPlwDD_iqg5LtbpGSZf08Gk0hn2mcLySQ
 tags: [影片]
 text: |
   問：我感覺我正在走向一個十字路口（轉折點），我正在面臨選擇，我想知道⋯⋯

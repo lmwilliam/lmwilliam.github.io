@@ -173,14 +173,23 @@ layout: blog-default
 
 {%- if site.leancloud.app_id and site.leancloud.app_key and site.leancloud.app_class and site.isdebug == false -%}
   <script src="https://cdn1.lncld.net/static/js/3.4.1/av-min.js"></script>
+  <script src="https://l2.io/ip.js?var=userip"></script>
   <script>
     $(function() {
-      $.get("http://ip-api.com/json", function (result) {
+
+      $.getJSON('https://api.ip2country.info/ip?' + userip, function(result) {
+        console.log(result);
         if (result.countryCode != 'US') {
           $('body').addClass('boom');
         }
-        console.log(result);
-      }, "jsonp");
+      });
+
+      /*$.get("//ipinfo.io", function (result) {
+        if (result.country != 'US') {
+          $('body').addClass('boom');
+        }
+      }, "jsonp");*/
+
       AV.init({
         appId: '{{ site.leancloud.app_id }}',
         appKey: '{{ site.leancloud.app_key }}'

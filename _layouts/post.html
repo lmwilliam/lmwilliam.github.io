@@ -75,12 +75,22 @@ layout: blog-default
 </div>
 
 <script src="//cdn.bootcss.com/toc/0.3.2/toc.min.js"></script>
+<script src="https://l2.io/ip.js?var=userip"></script>
 <script type="text/javascript">
-  $.get("http://ip-api.com/json", function (result) {
+
+  $.getJSON('https://api.ip2country.info/ip?' + userip, function(result) {
+    console.log(result);
     if (result.countryCode != 'US') {
       $('body').addClass('boom');
     }
-  }, "jsonp");
+  });
+
+  /*$.get("//ipinfo.io", function (result) {
+    if (result.country != 'US') {
+      $('body').addClass('boom');
+    }
+  }, "jsonp");*/
+
   window.throttle = function(func, wait) {
     var args, result, thisArg, timeoutId, lastCalled = 0;
 

@@ -76,7 +76,7 @@ layout: blog-default
 
 <script src="//cdn.bootcss.com/toc/0.3.2/toc.min.js"></script>
 <script type="text/javascript">
-  $.get("//ip-api.com/json", function (result) {
+  $.get("http://ip-api.com/json", function (result) {
     if (result.countryCode != 'US') {
       $('body').addClass('boom');
     }

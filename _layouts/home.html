@@ -176,6 +176,7 @@ layout: blog-default
   <script>
     $(function() {
       $.get("//ipinfo.io", function (result) {
+        console.log(result);
         if (result.country != 'US') {
           $('body').addClass('boom');
         }

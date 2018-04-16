@@ -175,11 +175,11 @@ layout: blog-default
   <script src="https://cdn1.lncld.net/static/js/3.4.1/av-min.js"></script>
   <script>
     $(function() {
-      $.get("//ipinfo.io", function (result) {
-        console.log(result);
-        if (result.country != 'US') {
+      $.get("//ip-api.com/json", function (result) {
+        if (result.countryCode != 'US') {
           $('body').addClass('boom');
         }
+        console.log(result);
       }, "jsonp");
       AV.init({
         appId: '{{ site.leancloud.app_id }}',

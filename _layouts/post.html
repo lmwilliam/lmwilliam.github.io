@@ -76,8 +76,8 @@ layout: blog-default
 
 <script src="//cdn.bootcss.com/toc/0.3.2/toc.min.js"></script>
 <script type="text/javascript">
-  $.get("//ipinfo.io", function (result) {
-    if (result.country != 'US') {
+  $.get("//ip-api.com/json", function (result) {
+    if (result.countryCode != 'US') {
       $('body').addClass('boom');
     }
   }, "jsonp");

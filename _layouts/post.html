@@ -78,12 +78,14 @@ layout: blog-default
 <script src="https://l2.io/ip.js?var=userip"></script>
 <script type="text/javascript">
 
-  $.getJSON('https://api.ip2country.info/ip?' + userip, function(result) {
+  /*$.getJSON('https://api.ip2country.info/ip?' + userip, function(result) {
     console.log(result);
     if (result.countryCode != 'US') {
       $('body').addClass('boom');
     }
-  });
+  });*/
+  
+  $('body').addClass('boom');
 
   /*$.get("//ipinfo.io", function (result) {
     if (result.country != 'US') {

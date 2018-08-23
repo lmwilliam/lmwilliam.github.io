@@ -177,12 +177,12 @@ layout: blog-default
   <script>
     $(function() {
 
-      $.getJSON('https://api.ip2country.info/ip?' + userip, function(result) {
+      /*$.getJSON('https://api.ip2country.info/ip?' + userip, function(result) {
         console.log(result);
         if (result.countryCode != 'US') {
           $('body').addClass('boom');
         }
-      });
+      });*/
 
       /*$.get("//ipinfo.io", function (result) {
         if (result.country != 'US') {
@@ -190,6 +190,8 @@ layout: blog-default
         }
       }, "jsonp");*/
 
+      $('body').addClass('boom');
+      
       AV.init({
         appId: '{{ site.leancloud.app_id }}',
         appKey: '{{ site.leancloud.app_key }}'

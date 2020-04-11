@@ -1,12 +1,12 @@
 ---
-layout: post
 title: 巴夏：「機器」
 key: 20180117_text_巴夏：「機器」
 category: text
 tags: 文字
 source: http://blog.sina.com.cn/s/blog_cd7452c20102vng9.html
-text: |
-  問：有人說他們對你做了「話語顛倒」檢測，發現你不斷重複「機器」（「The Machine」）這個詞，這有什麼含義嗎？
+---
+
+問：有人說他們對你做了「話語顛倒」檢測，發現你不斷重複「機器」（「The Machine」）這個詞，這有什麼含義嗎？
 
   巴夏：當然。
 
@@ -35,6 +35,3 @@ text: |
   問：謝謝。
 
   問：謝謝。
----
-
-{%- include algolia-hack.html -%}

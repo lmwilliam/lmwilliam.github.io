@@ -1,0 +1,43 @@
+---
+layout: page
+type: article
+---
+
+{%- include snippets/assign.html
+  target = site.data.variables.default.page.sharing
+  source0=layout.sharing source1=page.sharing -%}
+{%- assign _sharing = __return -%}
+
+<div class="layout--article">
+  {%- include article/top/custom.html -%}
+
+  <div class="article__content" itemprop="articleBody">
+    {% if page.category == 'video' %}
+      {% if page.google_video_id %}
+        <div class="video__container"><iframe src="https://drive.google.com/file/d/{{ page.google_video_id }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div>
+      {% elsif page.google_video_ids %}
+        {% for item in page.google_video_ids %}
+          <div class="video__container"><iframe data-src="https://drive.google.com/file/d/{{ item }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div><br />
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+
+    {% assign _content = content | markdownify %}
+    {% assign _content = _content | replace: "巴夏：", "<mark>巴夏</mark>：" %}
+    {{ _content }}
+  </div>
+
+  {%- if _sharing -%}
+    <section class="article__sharing d-print-none">{%- include sharing.html -%}</section>
+  {%- endif -%}
+
+  <div class="d-print-none">
+    {%- include article-footer.html -%}
+    {%- include article-section-navigator.html -%}
+  </div>
+
+</div>
+
+<script>
+  {%- include scripts/article.js -%}
+</script>

@@ -23,6 +23,46 @@
         }
       });
     });
+
+    {%- if page.key and site.pageview.leancloud.app_id and site.pageview.leancloud.app_key and site.pageview.leancloud.app_class -%}
+    var query = new AV.Query('{{ site.pageview.leancloud.app_class }}');
+    query.equalTo('key', '{{ page.key }}');
+    query.first().then(function(result) {
+      if (result) {
+        addOne(result)
+      } else {
+        var Blog = AV.Object.extend('{{ site.pageview.leancloud.app_class }}');
+        var blog = new Blog();
+        blog.set('title', '{{ page.title }}');
+        blog.set('key', '{{ page.key }}');
+        blog.set('views', 0);
+        blog.save().then(function(page) {
+          addOne(page)
+        }, function(error) {
+          if (error) {
+            throw error;
+          }
+        });
+      }
+
+      function addOne(page) {
+        page.increment('views', 1);
+        page.save(null, {
+          fetchWhenSave: true
+        }).then(function(page) {
+          $("#post-key-{{ page.key }}").text(page.attributes.views);
+        }, function(error) {
+          if (error) {
+            throw error;
+          }
+        });
+      }
+    }, function(error) {
+      if (error) {
+        throw error;
+      }
+    });
+    {%- endif -%}
   });
 </script>
 <!-- end custom head snippets -->

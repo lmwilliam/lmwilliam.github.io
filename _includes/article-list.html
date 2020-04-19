@@ -63,11 +63,11 @@
                   {%- if _article.category == 'video' -%}
                     {% if _article.google_video_id %}
                       <div class="video__container">
-                        <iframe data-src="https://drive.google.com/file/d/{{ _article.google_video_id }}/preview" frameborder="0" allowfullscreen class="video"></iframe>
+                        <iframe src="https://drive.google.com/file/d/{{ _article.google_video_id }}/preview" frameborder="0" allowfullscreen class="video"></iframe>
                       </div>
                     {% elsif _article.google_video_ids %}
                       <div class="video__container">
-                        <iframe data-src="https://drive.google.com/file/d/{{ _article.google_video_ids[0] }}/preview" frameborder="0" allowfullscreen class="video"></iframe>
+                        <iframe src="https://drive.google.com/file/d/{{ _article.google_video_ids[0] }}/preview" frameborder="0" allowfullscreen class="video"></iframe>
                       </div>
                     {% elsif _article.google_video_link %}
                       <div class="video__container">

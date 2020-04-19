@@ -20,7 +20,7 @@ type: article
         </div>
       {% elsif page.google_video_ids %}
         {% for item in page.google_video_ids %}
-          <div class="video__container"><iframe data-src="https://drive.google.com/file/d/{{ item }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div>
+          <div class="video__container"><iframe src="https://drive.google.com/file/d/{{ item }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div>
         <div class="video__download__link">
           <a href="https://drive.google.com/uc?authuser=0&id={{ item }}&export=download" target="_blank">下載影片</a>
         </div><br />

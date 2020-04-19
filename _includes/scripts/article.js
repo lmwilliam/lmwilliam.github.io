@@ -1,8 +1,8 @@
 (function() {
   var SOURCES = window.TEXT_VARIABLES.sources;
-  window.Lazyload.js([SOURCES.jquery, SOURCES.lazyloadxt, SOURCES.lazyloadxt_extra], function() {
+  window.Lazyload.js([SOURCES.jquery], function() {
     $(function() {
-      console.log('%cCircumstances don\'t matter, only my state of being matters.!', 'font-size:36px;color:red');
+      console.log('%cCircumstances don\'t matter, only my state of being matters.!', 'font-size:33px;color:black');
       var $this ,$scroll;
       var $articleContent = $('.js-article-content');
       var hasSidebar = $('.js-page-root').hasClass('layout--page--sidebar');

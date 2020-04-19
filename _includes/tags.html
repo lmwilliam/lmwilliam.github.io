@@ -43,10 +43,12 @@
       {%- else -%}
         {%- assign _c_index = 4 -%}
       {%- endif -%}
+      {%- if _tag[1].size > 1 -%}
       <li><button type="button" class="button button--pill tag-button tag-button-{{ _c_index }}" data-encode="{{ _tag[0] | strip | url_encode }}">
           <span>{{ _tag[0] | strip }}</span><div class="tag-button__count">{{ _tag[1].size }}</div>
         </button>
       </li>
+      {%- endif -%}
     {%- endfor -%}
   </ul>
 </div>

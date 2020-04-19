@@ -204,7 +204,7 @@ layout: base
                 {%- endif -%}
 
                   <div class="js-article-content">{{ content }}</div>
-                  {%- if _comment != false -%}
+                  {%- if _comment != false and page.key -%}
                     <section class="page__comments d-print-none">
                       <div id="disqus_thread"></div>
                       <script>

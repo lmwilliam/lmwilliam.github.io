@@ -14,13 +14,13 @@ type: article
   <div class="article__content" itemprop="articleBody">
     {% if page.category == 'video' %}
       {% if page.google_video_id %}
-        <div class="video__container"><iframe src="https://drive.google.com/file/d/{{ page.google_video_id }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div>
+        <div class="video__container"><iframe data-src="https://drive.google.com/file/d/{{ page.google_video_id }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div>
         <div class="video__download__link">
           <a href="https://drive.google.com/uc?authuser=0&id={{ page.google_video_id }}&export=download" target="_blank">下載影片</a>
         </div>
       {% elsif page.google_video_ids %}
         {% for item in page.google_video_ids %}
-          <div class="video__container"><iframe src="https://drive.google.com/file/d/{{ item }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div>
+          <div class="video__container"><iframe data-src="https://drive.google.com/file/d/{{ item }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div>
         <div class="video__download__link">
           <a href="https://drive.google.com/uc?authuser=0&id={{ item }}&export=download" target="_blank">下載影片</a>
         </div><br />
@@ -28,14 +28,14 @@ type: article
       {% elsif page.google_video_link %}
         <div class="video__container">
           <video class="video" controls>
-            <source src="{{ page.google_video_link }}" type="video/mp4">
+            <source data-src="{{ page.google_video_link }}" type="video/mp4">
           </video>
         </div>
       {% elsif page.google_video_links %}
         {% for item in page.google_video_links %}
           <div class="video__container">
             <video class="video" controls>
-              <source src="{{ item }}" type="video/mp4">
+              <source data-src="{{ item }}" type="video/mp4">
             </video>
           </div><br />
         {% endfor %}

@@ -24,14 +24,14 @@
 
   {%- assign _show_author = include.article.author -%}
 
-  {%- include snippets/assign.html target=site.data.variables.default.page.pageview
+  <!--{%- include snippets/assign.html target=site.data.variables.default.page.pageview
     source0=layout.pageview source1=page.pageview -%}
   {%- assign _pageview = __return -%}
   {%- if _pageview or include.show_pageview -%}
     {%- assign _pageview = true -%}
   {%- else -%}
     {%- assign _pageview = false -%}
-  {%- endif -%}
+  {%- endif -%}-->
 
   {%- assign _paths_archive = site.paths.archive | default: site.data.variables.default.paths.archive -%}
 
@@ -67,13 +67,13 @@
             </li>
           {%- endif -%}
 
-          {%- if _pageview -%}
+          <!--{%- if _pageview -%}
             {%- if site.pageview.provider -%}
               {%- include snippets/get-locale-string.html key='VIEWS' -%}
               {%- assign _locale_views = __return -%}
               <li><i class="far fa-eye"></i> <span class="js-pageview" data-page-key="{{ include.article.key }}" id="post-key-{{ include.article.key }}">0</span> {{ _locale_views }}</li>
             {%- endif -%}
-          {%- endif -%}
+          {%- endif -%}-->
         </ul>
       {%- endif -%}
 

@@ -101,12 +101,12 @@ comments:
 
 ## => Pageview
 ##############################
-pageview:
-  provider: leancloud
-  leancloud:
-    app_id: 3sBjcT3E45n9zVghcgQnc0T5-MdYXbMMI
-    app_key: x5Sx0wvrYtDrKupVzvxPbKEE
-    app_class: Counter
+# pageview:
+  # provider: leancloud
+  # leancloud:
+  #   app_id: 3sBjcT3E45n9zVghcgQnc0T5-MdYXbMMI
+  #   app_key: x5Sx0wvrYtDrKupVzvxPbKEE
+  #   app_class: Counter
 
 
 ## => Search
@@ -167,7 +167,7 @@ defaults:
       show_edit_on_github: false
       show_subscribe: false
       comment: true
-      pageview: true
+      pageview: false
 
 
 ## => Plugins

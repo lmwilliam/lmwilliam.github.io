@@ -203,10 +203,25 @@ layout: base
                   {%- include article-info.html article=page -%}
                 {%- endif -%}
 
-                    <div class="js-article-content">{{ content }}</div>
-                    {%- if _comment != false -%}
-                      <section class="page__comments d-print-none">{%- include comments.html -%}</section>
-                    {%- endif -%}
+                  <div class="js-article-content">{{ content }}</div>
+                  {%- if _comment != false -%}
+                    <section class="page__comments d-print-none">
+                      <div id="disqus_thread"></div>
+                      <script>
+                      var disqus_config = function () {
+                        this.page.url = '{%- include snippets/page-url.html -%}';
+                        this.page.identifier = '{{ page.key }}';
+                      };
+                      (function() {
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://{{ site.comments.disqus.shortname }}.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                      })();
+                      </script>
+                      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    </section>
+                  {%- endif -%}
                 </article>
                 {%- include main/bottom/custom.html -%}
               </div>
@@ -254,4 +269,4 @@ hello
 {%- endif -%}
 
 {%- include markdown-enhancements.html -%}
-<!--{%- include pageview.html -%}-->
+<!-- {%- include pageview.html -%} -->

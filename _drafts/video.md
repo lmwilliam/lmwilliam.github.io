@@ -1,8 +1,8 @@
 ---
 title: PostTitle
-key: 20200418_video_PostTitle
+key: 20200419_video_PostTitle
 category: video
-google_video_id: VideoId
+google_video_link: LINK
 tags:
   - 影片
 ---

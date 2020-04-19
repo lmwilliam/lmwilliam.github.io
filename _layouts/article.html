@@ -25,6 +25,20 @@ type: article
           <a href="https://drive.google.com/uc?authuser=0&id={{ item }}&export=download" target="_blank">下載影片</a>
         </div><br />
         {% endfor %}
+      {% elsif page.google_video_link %}
+        <div class="video__container">
+          <video class="video" controls>
+            <source src="{{ page.google_video_link }}" type="video/mp4">
+          </video>
+        </div>
+      {% elsif page.google_video_links %}
+        {% for item in page.google_video_links %}
+          <div class="video__container">
+            <video class="video" controls>
+              <source src="{{ item }}" type="video/mp4">
+            </video>
+          </div><br />
+        {% endfor %}
       {% endif %}
     {% endif %}
 

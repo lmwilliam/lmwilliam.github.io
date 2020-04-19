@@ -93,7 +93,6 @@ sharing:
 ##############################
 comments:
   provider: disqus
-
   ## Disqus
   disqus:
     shortname: basharbuddha
@@ -102,11 +101,11 @@ comments:
 ## => Pageview
 ##############################
 # pageview:
-  # provider: leancloud
-  # leancloud:
-  #   app_id: 3sBjcT3E45n9zVghcgQnc0T5-MdYXbMMI
-  #   app_key: x5Sx0wvrYtDrKupVzvxPbKEE
-  #   app_class: Counter
+#   provider: leancloud
+#   leancloud:
+#     app_id: 3sBjcT3E45n9zVghcgQnc0T5-MdYXbMMI
+#     app_key: x5Sx0wvrYtDrKupVzvxPbKEE
+#     app_class: Counter
 
 
 ## => Search

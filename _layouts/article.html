@@ -16,27 +16,25 @@ type: article
       {% if page.google_video_id %}
         <div class="video__container"><iframe data-src="https://drive.google.com/file/d/{{ page.google_video_id }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div>
         <div class="video__download__link">
-          <a href="https://drive.google.com/uc?authuser=0&id={{ page.google_video_id }}&export=download" target="_blank">下載影片</a>
+          <a href="https://drive.google.com/uc?authuser=0&id={{ page.google_video_id }}&export=download" target="_blank">下載影片</a><br />
         </div>
       {% elsif page.google_video_ids %}
         {% for item in page.google_video_ids %}
           <div class="video__container"><iframe data-src="https://drive.google.com/file/d/{{ item }}/preview" frameborder="0" allowfullscreen class="video"></iframe></div>
-        <div class="video__download__link">
-          <a href="https://drive.google.com/uc?authuser=0&id={{ item }}&export=download" target="_blank">下載影片</a>
-        </div><br />
+          <div class="video__download__link">
+            <a href="https://drive.google.com/uc?authuser=0&id={{ item }}&export=download" target="_blank">下載影片</a>
+          </div><br />
         {% endfor %}
-      {% elsif page.google_video_link %}
-        <div class="video__container">
-          <video class="video" controls>
-            <source data-src="{{ page.google_video_link }}" type="video/mp4">
-          </video>
-        </div>
-      {% elsif page.google_video_links %}
-        {% for item in page.google_video_links %}
-          <div class="video__container">
-            <video class="video" controls>
-              <source data-src="{{ item }}" type="video/mp4">
-            </video>
+      {% elsif page.mega_video_link %}
+        <div class="video__container"><iframe frameborder="0" src="https://mega.nz/embed/{{ page.mega_video_link }}" allowfullscreen class="video"></iframe></div>
+        <div class="video__download__link">
+          <a href="https://mega.nz/file/{{ page.mega_video_link }}" target="_blank">下載影片</a>
+        </div><br />
+      {% elsif page.mega_video_links %}
+        {% for item in page.mega_video_links %}
+          <div class="video__container"><iframe data-src="https://mega.nz/embed/{{ item }}" frameborder="0" allowfullscreen class="video"></iframe></div>
+          <div class="video__download__link">
+            <a href="https://mega.nz/file/{{ item }}" target="_blank">下載影片</a>
           </div><br />
         {% endfor %}
       {% endif %}

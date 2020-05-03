@@ -38,7 +38,6 @@
   {%- if _show_tags or _show_author or _show_date or _pageview -%}
     <div class="article__info clearfix">
       {%- if _show_tags -%}
-
         <ul class="left-col menu">
           {%- assign _tag_path = _paths_archive | append: '?tag=' -%}
           {%- include snippets/prepend-baseurl.html path=_tag_path -%}
@@ -54,10 +53,6 @@
         </ul>
       {%- endif -%}
 
-        <ul class="right-col menu">
-          <li><img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fbasharbuddha.github.io{{ include.article.url | url_encode  }}" alt="Hits"></li>
-        </ul>
-
       {%- if _show_author or _show_date or _pageview -%}
         <ul class="right-col menu">
           {%- if _show_author  -%}
@@ -70,6 +65,8 @@
               <i class="far fa-calendar-alt"></i> <span>{{ include.article.date | date: __return }}</span>
             </li>
           {%- endif -%}
+
+          <li><img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fbasharbuddha.github.io{{ include.article.url | url_encode  }}" alt="Hits"></li>
 
           <!--{%- if _pageview -%}
             {%- if site.pageview.provider -%}

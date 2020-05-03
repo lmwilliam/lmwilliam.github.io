@@ -71,11 +71,11 @@
                       </div>
                     {% elsif _article.mega_video_link %}
                       <div class="video__container">
-                        <iframe frameborder="0" src="https://mega.nz/embed/{{ _article.mega_video_link }}" allowfullscreen class="video"></iframe>
+                        <iframe frameborder="0" data-src="https://mega.nz/embed/{{ _article.mega_video_link }}" allowfullscreen class="video"></iframe>
                       </div>
                     {% elsif _article.mega_video_links %}
                       <div class="video__container">
-                        <iframe frameborder="0" src="https://mega.nz/embed/{{ _article.mega_video_links[0] }}" allowfullscreen class="video"></iframe>
+                        <iframe frameborder="0" data-src="https://mega.nz/embed/{{ _article.mega_video_links[0] }}" allowfullscreen class="video"></iframe>
                       </div>
                     {% endif %}
                     {{ _article.excerpt | markdownify | strip_html | strip | truncate: 150 }}

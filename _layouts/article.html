@@ -26,7 +26,7 @@ type: article
           </div><br />
         {% endfor %}
       {% elsif page.mega_video_link %}
-        <div class="video__container"><iframe frameborder="0" src="https://mega.nz/embed/{{ page.mega_video_link }}" allowfullscreen class="video"></iframe></div>
+        <div class="video__container"><iframe frameborder="0" data-src="https://mega.nz/embed/{{ page.mega_video_link }}" allowfullscreen class="video"></iframe></div>
         <div class="video__download__link">
           <a href="https://mega.nz/file/{{ page.mega_video_link }}" target="_blank">下載影片</a>
         </div><br />

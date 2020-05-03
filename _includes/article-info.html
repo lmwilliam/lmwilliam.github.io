@@ -54,6 +54,10 @@
         </ul>
       {%- endif -%}
 
+        <ul class="right-col menu">
+          <li><img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fbasharbuddha.github.io{{ include.article.url | url_encode  }}" alt="Hits"></li>
+        </ul>
+
       {%- if _show_author or _show_date or _pageview -%}
         <ul class="right-col menu">
           {%- if _show_author  -%}

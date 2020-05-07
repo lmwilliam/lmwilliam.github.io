@@ -25,16 +25,24 @@ type: article
             <a href="https://drive.google.com/uc?authuser=0&id={{ item }}&export=download" target="_blank">下載影片</a>
           </div><br />
         {% endfor %}
-      {% elsif page.mega_video_link %}
-        <div class="video__container"><iframe frameborder="0" data-src="https://mega.nz/embed/{{ page.mega_video_link }}" allowfullscreen class="video"></iframe></div>
+      {% elsif page.pcloud_video_link %}
+        <div class="video__container">
+          <video class="video" controls>
+            <source data-src="{{ page.pcloud_video_link }}" type="video/mp4">
+          </video>
+        </div>
         <div class="video__download__link">
-          <a href="https://mega.nz/file/{{ page.mega_video_link }}" target="_blank">下載影片</a>
+          <a href="{{ page.pcloud_video_link }}" target="_blank">下載影片</a>
         </div><br />
-      {% elsif page.mega_video_links %}
-        {% for item in page.mega_video_links %}
-          <div class="video__container"><iframe data-src="https://mega.nz/embed/{{ item }}" frameborder="0" allowfullscreen class="video"></iframe></div>
+      {% elsif page.pcloud_video_links %}
+        {% for item in page.pcloud_video_links %}
+          <div class="video__container">
+            <video class="video" controls>
+              <source data-src="{{ item }}" type="video/mp4">
+            </video>
+          </div>
           <div class="video__download__link">
-            <a href="https://mega.nz/file/{{ item }}" target="_blank">下載影片</a>
+            <a href="{{ item }}" target="_blank">下載影片</a>
           </div><br />
         {% endfor %}
       {% endif %}
